@@ -1,0 +1,132 @@
+/* navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 30px;
+}
+
+
+h1 {
+    font-family: viga;
+}
+
+.jumbotron {
+    background-image: url(../img/home/bg-home-01.svg);
+    background-size: cover;
+    background-color: white;
+}
+
+.jumbotron .display-4 {
+    font-family: viga;
+    color: red;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+.riset hr {
+    border-top: 2px solid rgb(219, 6, 6);
+    width: 200px;
+    margin-top: -5px;
+}
+.footer img {
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tentang-content p {
+    margin-top: 20px;
+}
+
+.kontak-content {
+    margin-top: 10px;
+}
+.riset-head .media {
+    margin-top: 20px;
+}
+
+.riset-head .media img {
+    width: 100px;
+}
+
+.riset-cellular{
+    margin-top: 20px;
+}
+.riset-vanet,
+.riset-iot {
+    margin-top: 20px;
+}
+
+.riset-cellular-head .media,
+.riset-vanet-head .media,
+.riset-iot-head .media {
+    margin-top: 20px;
+}
+
+.riset-cellular-head .media img,
+.riset-vanet-head .media img,
+.riset-iot-head .media img {
+    width: 100px;
+}
+
+.riset-cellular-content,
+.riset-vanet-content,
+.riset-iot-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Desktop */
+@media (max-width: 600px) {
+    .kontak-content-map {
+        width: 99%;
+        height: auto;
+        margin: auto;
+    }
+}
+@media (min-width: 992px) {
+    .jumbotron {
+        margin-top: -75px;
+        height: 800px;
+    }
+
+    .nav-link {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid orange;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: 150px;
+    }
+
+    .tentang-content {
+        margin-top: -400px;
+    }
+
+    .kontak-content {
+        margin-top: 80px;
+    }
+    .riset-head {
+        margin-top: -40px;
+    }
+
+    .riset-cellular,
+    .riset-vanet,
+    .riset-iot {
+        margin-top: 70px;
+    }
+
+}
